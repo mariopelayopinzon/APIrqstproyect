@@ -1,0 +1,31 @@
+/* MovieDetail.css */
+
+.movie-detail {
+    display: flex;
+    margin-top: 20px;
+}
+
+.movie-detail .poster {
+    flex: 0 0 30%;
+    margin-right: 20px;
+}
+
+.movie-detail .poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.movie-detail .info {
+    flex: 1;
+}
+
+.movie-detail h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.movie-detail p {
+    color: #555;
+    line-height: 1.5;
+}
